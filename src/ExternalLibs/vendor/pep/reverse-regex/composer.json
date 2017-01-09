@@ -1,0 +1,34 @@
+{
+    "name": "pep/reverse-regex",
+    "description": "Convert Regular Expressions into text, for testing",
+    "keywords": ["regex","testing","test data","generator"],
+    "homepage": "https://github.com/PepijnSenders/ReverseRegex",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lewis Dyer",
+            "email": "getintouch@icomefromthenet.com",
+            "homepage": "http://www.icomefromthenet.com"
+        },
+        {
+            "name": "Pepijn Senders",
+            "email": "pepijn@bekokstooft.nl",
+            "homepage": "http://www.bekokstooft.nl"
+        }
+    ],
+    "require-dev": {
+       "phpunit/phpunit": "3.7.*"
+    },
+    "require": {
+        "doctrine/common"      : "*",
+        "patchwork/utf8"       : "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ReverseRegex": "src/",
+            "PHPStats"    : "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

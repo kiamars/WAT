@@ -1,0 +1,45 @@
+{
+    "name": "fakerino/fakerino",
+    "description": "Faker framework, for generate every kind of fake data for test, database seed, mock responses, other",
+    "keywords": ["faker", "fake", "generator", "data", "seed", "fixtures", "test", "database"],
+    "homepage": "http://github.com/niklongstone/fakerino",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicola Pietroluongo",
+            "email": "nik.longstone@gmail.com",
+            "homepage": "http://nicolapietroluongo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "doctrine/dbal": "~2.5",
+        "twig/twig": "~1.0",
+        "niklongstone/regex-reverse": "~0.4",
+        "symfony/yaml": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fakerino\\": "src/Fakerino/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fakerino\\Test\\": "tests/Fakerino/",
+            "Fakerino\\Test\\Fixtures\\": "tests/Fakerino/Test/Fixtures"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "bin": ["app/fake"],
+    "scripts": {
+        "post-install-cmd": "build/ods",
+        "post-update-cmd": "build/ods",
+        "post-create-project-cmd" : "build/ods"
+    }
+}

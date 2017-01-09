@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "malenki/math": "dev-master",
+    "icomefromthenet/reverse-regex": "v0.0.6.3",
+    "pep/reverse-regex": "0.6.3",
+    "fakerino/fakerino": "0.8.2",
+    "mon1k/services_json": "dev-trunk",
+    "predis/predis": "v1.1.1"
+  }
+}

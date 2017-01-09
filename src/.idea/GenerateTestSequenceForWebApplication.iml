@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/fakerino/fakerino" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/fullpipe/normal-distribution" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/icomefromthenet/reverse-regex" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/malenki/math" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/mon1k/services_json" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/niklongstone/regex-reverse" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/patchwork/utf8" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/pear/pear_exception" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/pep/reverse-regex" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/predis/predis" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/swekaj/cron-expression-generator" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/ExternalLibs/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/TestScriptAndResults/InitializeState/DataBaseInitialize" />
+      <excludeFolder url="file://$MODULE_DIR$/TestScriptAndResults/ResultOfAlgorithm" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/ExternalLibs/composer.phar" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/ExternalLibs/composer.phar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
