@@ -1,0 +1,150 @@
+/* $Id: admin-Login-Only.css 16 2006-06-27 23:20:45Z sgrayban $ */
+
+DT {
+	font-weight : 100;
+	padding-left : 15px;
+}
+
+.back {
+	background-color : #660000;
+	color : #FFCC99;
+	font-weight : bold;
+}
+
+.benefit {
+	color : Black;
+	font-size : small;
+	background-color : transparent;
+	font-style : oblique;
+	font-weight : bold;
+}
+
+H1  {
+	font-size : 30px;
+	font-weight : bold;
+	color : #999999;
+	text-transform : uppercase;
+	background-color : White;
+	margin-left : auto;
+	background : transparent;
+}
+
+H2  {
+	font-size : medium;
+	font-weight : bold;
+	text-align : left;
+	text-transform : capitalize;
+	color : #2F4F4F;
+	background-color : #E6E6FA;
+	margin-left : 0px;
+}
+
+H3  {
+	font-size : medium;
+	font-family : sans-serif;
+	font-weight : bold;
+	font-style : italic;
+	color : Purple;
+	text-transform : capitalize;
+	margin-left : 15px;
+}
+
+P {
+	margin-left : 15px;
+}
+
+H4 {
+	background-color : transparent;
+	color : Black;
+	font-weight : bold;
+	font : normal small-caps monospace;
+}
+
+A  {
+	
+}
+
+A:LINK {
+	background-color : transparent;
+	color : Blue;
+}
+
+A:Visited  {
+	color : #7B68EE;
+	background-color : transparent;
+	background : transparent;
+}
+
+A:Active  {
+	color : #006600;
+	background-color : #FFFF66;
+}
+
+A:Hover  {
+	color : 006600;
+	background-color : #E6E6FA;
+}
+
+BODY  {
+	font-size : small;
+	font-family : "Times New Roman", Times, serif;
+	color : Black;
+	font : Terminal;
+	text-align : left;
+	margin-top : 0px;
+	margin-left : auto;
+	background-color : White;
+	scrollbar-face-color: gray;
+	scrollbar-highlight-color: lavender;
+	scrollbar-3dlight-color: CC9966;
+	scrollbar-darkshadow-color: gray;
+	scrollbar-shadow-color: silver;
+	scrollbar-arrow-color: ivory;
+	scrollbar-track-color: gold;
+	margin : 10px;
+}
+
+.sitedesign  {
+	font-size : xx-small;
+	font-family : sans-serif;
+	color : Gray;
+	text-align : left;
+	text-indent : 0px;
+}
+
+table  {
+	text-align : left;
+}
+
+th  {
+	font-size : small;
+	font-family : sans-serif;
+	font-weight : bold;
+	color : #2F4F4F;
+	background-color : #FFD700;
+	text-align : left;
+}
+
+td  {
+
+	padding : 3px;
+
+}
+
+.form  {
+	border-style : double;
+	background : #F0F8FF none;
+	padding-left : 8px;
+	padding-right : 8px;
+	padding-top : 8px;
+	padding-bottom : 8px;
+	padding : 2px;
+	background-color : #FFCC99;
+	margin-left : auto;
+}
+
+.submit {
+	color : #2F4F4F;
+	background-color : #FFD700;
+	font : bold;
+}
